@@ -1,16 +1,15 @@
 "use strict";
+// const User = {
+//     name: 'uros',
+//     email: 'uros@gmail.com',
+//     isActive: true,
+// }
 exports.__esModule = true;
-var User = {
-    name: 'uros',
-    email: 'uros@gmail.com',
-    isActive: true
+var myUser = {
+    _id: '1234',
+    name: 'u',
+    email: 'u@u.com',
+    isActive: false
 };
-function createUser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
-}
-var newUser = { name: 'Uros', isPaid: false, email: 'Uros@gmail.com' };
-createUser({ name: 'uros', isPaid: false });
-createUser(newUser);
-function createCourse() {
-    return { name: 'reactjs', price: 399 };
-}
+myUser.email = 'uros@gmail.com';
+myUser._id = "asdas";
